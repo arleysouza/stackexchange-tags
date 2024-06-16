@@ -21,6 +21,7 @@ Componentes da URL:
 - https://api.stackexchange.com: URL base da API;
 - {versão}: versão da API. Atualmente, a versão mais recente é _2.3_;
 - {recurso}: o recurso específico a ser acessado acessar (por exemplo,  _answers_, _comments_, _questions_, _tags_, _users_, etc.).
+
 Exemplo de URL para obter as _tags_ no site do Stack Overflow:
 ```
 https://api.stackexchange.com/2.3/tags?fromdate=1704067200&todate=1706659200&order=desc&sort=popular&site=stackoverflow
