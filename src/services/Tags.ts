@@ -1,5 +1,6 @@
 import { ErrorProps, PageProps } from "../types";
 import { api } from "./api";
+import mockResponse from "./mock";
 
 class Tags {
   // O manual está disponível em: https://api.stackexchange.com/docs
@@ -22,7 +23,8 @@ class Tags {
       const { data } = await api.get("/", { params });
       return data;
     } catch (error: any) {
-      return { message: error.message };
+      return mockResponse;
+      //return { message: error.message };
     }
   }
 }

@@ -1,4 +1,6 @@
-{
+import { PageProps } from "../types";
+
+const response:PageProps = {
   "items": [
     {
       "has_synonyms": false,
@@ -74,4 +76,6 @@
   "has_more": true,
   "quota_max": 300,
   "quota_remaining": 295
-}
+};
+
+export default response;
